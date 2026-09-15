@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [ https://camagu-mgadle.github.io/Social-links-profile/](https://camagu-mgadle.github.io/Social-links-profile/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://camagulinks.netlify.app/](https://camagulinks.netlify.app/)
 
 ## My process
 
