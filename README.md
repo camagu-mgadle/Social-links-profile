@@ -76,5 +76,5 @@ Users should be able to:
 ## Author
 
 - Website - [Camagu](https://mgadleca.netlify.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/camagu)
+- Frontend Mentor - [@camagu](https://www.frontendmentor.io/profile/camagu)
 - Linkedin - [@camagu](https://www.linkedin.com/in/camagu-mgadle/)

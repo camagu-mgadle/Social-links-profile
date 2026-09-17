@@ -28,7 +28,7 @@ body {
   background-color: var(--grey-800);
   width: 320px;
   max-width: 100%;
-  padding: 20px;
+  padding: clamp(0.75rem, 0.5rem + 1vw, 1.25rem);
   text-align: center;
   border-radius: 5px;
   margin-bottom: 1rem;
@@ -44,14 +44,15 @@ h1 {
   font-size: 1.5rem;
 }
 
-h2 {
+.location {
   font-size: 14px;
   color: var(--green);
-  padding-bottom: 8px;
+  font-weight: 600;
 }
 
 p {
   font-size: 14px;
+  font-weight: 400;
   margin: 0.8rem 0 0.6rem 0;
 }
 
@@ -75,9 +76,20 @@ ul a {
   text-decoration: none;
   color: var(--white);
   font-size: 14px;
+  font-weight: 700;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
 }
 
 ul a:hover {
+  background-color: var(--green);
+  color: var(--grey-900);
+  transition:
+    background-color 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+}
+
+ul a:focus-visible {
   background-color: var(--green);
   color: var(--grey-900);
 }
